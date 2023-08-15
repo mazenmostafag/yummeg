@@ -191,5 +191,42 @@
         <span>Website Builder Software</span>
       </a>. 
     </section>
-  <iframe src="https://talk.botpenguin.com/Yumm EG/64dba3f21069d44fc40ed2ca/64dba42293af175e979384b6"></iframe>
-</body></html>
+</body>
+	<script>
+                var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?53065';
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = url;
+                var options = {
+                "enabled":true,
+                "chatButtonSetting":{
+                    "backgroundColor":"#d2d7c1",
+                    "ctaText":"Chat with us",
+                    "borderRadius":"25",
+                    "marginLeft": "0",
+                    "marginRight": "20",
+                    "marginBottom": "20",
+                    "ctaIconWATI":false,
+                    "position":"right"
+                },
+                "brandSetting":{
+                    "brandName":"Yumm EG",
+                    "brandSubTitle":"undefined",
+                    "brandImg":"https://gcdnb.pbrd.co/images/Ntgn0DSSkrFO.jpg?o=1",
+                    "welcomeText":"Hi there!\nHow can I help you?",
+                    "messageText":"",
+                    "backgroundColor":"#d2d7c1",
+                    "ctaText":"Chat with us",
+                    "borderRadius":"25",
+                    "autoShow":false,
+                    "phoneNumber":"201552901807"
+                }
+                };
+                s.onload = function() {
+                    CreateWhatsappChatWidget(options);
+                };
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            </script>
+	</html>
